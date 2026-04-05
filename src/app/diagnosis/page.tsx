@@ -71,6 +71,17 @@ const buildQuestions = (): Question[] => [
       { value: "advanced",     label: "ある程度わかる",   emoji: "📘", desc: "実務経験や学習経験あり" },
     ],
   },
+  {
+    id: "deadline",
+    title: "いつまでに取得したいですか？",
+    subtitle: "目標時期を教えてください",
+    options: [
+      { value: "1month",  label: "1ヶ月以内",  emoji: "🔥", desc: "短期集中で一気に合格を目指す" },
+      { value: "3months", label: "3ヶ月以内",  emoji: "📅", desc: "コツコツ着実に進めたい" },
+      { value: "6months", label: "6ヶ月以内",  emoji: "🗓️", desc: "余裕を持ってじっくり学習したい" },
+      { value: "1year",   label: "1年以内",    emoji: "⏳", desc: "ライフスタイルに合わせてマイペースに" },
+    ],
+  },
 ]
 
 const QUESTIONS = buildQuestions()
