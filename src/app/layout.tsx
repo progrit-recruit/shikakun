@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "シカクン - AI参考書選定×進捗管理 資格学習アプリ",
   description: "AIがあなたに最適な参考書を選定。「選ぶ」時間をゼロにして、今日から学習をスタート。",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

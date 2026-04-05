@@ -1,7 +1,7 @@
 export type LearningStyle = {
-  visual: number       // 図解派 0-100
-  detailed: number     // 詳細解説派 0-100
-  timePerDay: string   // 1日の学習時間
+  visual: number
+  detailed: number
+  timePerDay: string
   attribute: "worker" | "student"
   qualification: string
   level: "beginner" | "intermediate" | "advanced"
@@ -18,8 +18,8 @@ export type Textbook = {
   reason: string
   features: string[]
   difficulty: "易" | "普" | "難"
-  visualLevel: number   // 図解の多さ 0-100
-  detailLevel: number   // 詳細さ 0-100
+  visualLevel: number
+  detailLevel: number
   amazonUrl: string
   qualification: string
 }
@@ -31,7 +31,8 @@ export type DiagnosisAnswer = {
 
 export type ProgressEntry = {
   date: string
-  pages: number
+  fromPage: number
+  toPage: number
   totalPages: number
 }
 

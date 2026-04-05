@@ -7,7 +7,10 @@
       "Read(//usr/local/**)",
       "Bash(/dev/null -name node -type f)",
       "Read(//opt/homebrew/bin/**)",
-      "Bash(brew list:*)"
+      "Bash(brew list:*)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(npx shadcn@canary add card badge progress separator)",
+      "Bash(vercel deploy:*)"
     ]
   }
 }
