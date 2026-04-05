@@ -102,7 +102,7 @@ export default function LandingPage() {
             href="/diagnosis"
             className="inline-flex items-center gap-1.5 bg-primary text-primary-foreground text-sm font-medium px-4 py-2 rounded-lg hover:opacity-90 transition-opacity"
           >
-            無料で診断 <ArrowRight className="w-3.5 h-3.5" />
+            診断を始める <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
       </header>
@@ -162,7 +162,7 @@ export default function LandingPage() {
                 href="/diagnosis"
                 className="group inline-flex items-center gap-2 bg-white text-slate-900 font-bold text-lg px-8 py-4 rounded-xl hover:bg-white/90 transition-all shadow-xl shadow-white/10"
               >
-                無料で診断を始める
+                診断を始める
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <span className="text-white/50 text-sm">診断2分・登録不要</span>
@@ -439,7 +439,7 @@ export default function LandingPage() {
                 className="inline-flex items-center gap-2 bg-white text-slate-900 font-black text-xl px-10 py-5 rounded-2xl hover:bg-white/90 transition-all shadow-2xl"
               >
                 <Zap className="w-5 h-5" />
-                無料で診断を始める
+                診断を始める
               </Link>
               <p className="text-white/40 text-sm mt-4">診断2分・登録不要・今すぐ開始</p>
             </motion.div>
